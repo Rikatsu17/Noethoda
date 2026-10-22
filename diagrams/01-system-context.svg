@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="930" viewBox="0 0 1440 930">
+<title>Oiqyn | System Context</title>
+<desc>Proposed MVP · people, system boundary, and interactions · 23 October 2026. Proposed Oiqyn design for the first pre-defense.</desc>
+<defs>
+<marker id="arrow60738A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60738A"/></marker>
+<marker id="arrow7557AA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7557AA"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="48" y="55" font-size="32" fill="#172B4D" text-anchor="start" font-weight="700"><tspan x="48" dy="0">Oiqyn | System Context</tspan></text>
+<text x="48" y="91" font-size="18" fill="#526277" text-anchor="start" font-weight="400"><tspan x="48" dy="0">Proposed MVP · people, system boundary, and interactions · 23 October 2026</tspan></text>
+<line x1="48" y1="112" x2="1392" y2="112" stroke="#D7E0EA"/>
+<polyline points="190,315 475,315" stroke="#60738A" stroke-width="2.3" fill="none" stroke-linejoin="round" marker-end="url(#arrow60738A)" marker-start="url(#arrow60738A)"/>
+<polyline points="1250,315 965,315" stroke="#60738A" stroke-width="2.3" fill="none" stroke-linejoin="round" marker-end="url(#arrow60738A)" marker-start="url(#arrow60738A)"/>
+<polyline points="720,710 720,590" stroke="#7557AA" stroke-width="2.3" fill="none" stroke-linejoin="round" marker-end="url(#arrow7557AA)" marker-start="url(#arrow7557AA)"/>
+<g stroke="#167D8D" fill="none" stroke-width="3"><circle cx="150.0" cy="278" r="15"/><path d="M 150.0 293 V 337 M 120.0 312 H 180.0 M 150.0 337 L 124.0 365 M 150.0 337 L 176.0 365"/></g>
+<text x="150.0" y="396" font-size="19" fill="#172B4D" text-anchor="middle" font-weight="600"><tspan x="150.0" dy="0">Learner</tspan><tspan x="150.0" dy="24.7">Adult university student</tspan><tspan x="150.0" dy="24.7">Any year of study</tspan></text>
+<g stroke="#167D8D" fill="none" stroke-width="3"><circle cx="1290.0" cy="278" r="15"/><path d="M 1290.0 293 V 337 M 1260.0 312 H 1320.0 M 1290.0 337 L 1264.0 365 M 1290.0 337 L 1316.0 365"/></g>
+<text x="1290.0" y="396" font-size="19" fill="#172B4D" text-anchor="middle" font-weight="600"><tspan x="1290.0" dy="0">Content administrator</tspan></text>
+<g stroke="#7557AA" fill="none" stroke-width="3"><circle cx="720.0" cy="728" r="15"/><path d="M 720.0 743 V 787 M 690.0 762 H 750.0 M 720.0 787 L 694.0 815 M 720.0 787 L 746.0 815"/></g>
+<text x="720.0" y="846" font-size="20" fill="#172B4D" text-anchor="middle" font-weight="600"><tspan x="720.0" dy="0">Team evaluator</tspan></text>
+<rect x="475" y="195" width="490" height="395" rx="10" fill="#EFF5FF" stroke="#245FC5" stroke-width="2"/>
+<text x="720.0" y="304.3" font-size="21" fill="#172B4D" text-anchor="middle" font-weight="500"><tspan x="720.0" dy="0">Oiqyn</tspan><tspan x="720.0" dy="27.3">IT and digital literacy platform</tspan><tspan x="720.0" dy="27.3"></tspan><tspan x="720.0" dy="27.3">Assessment and skill profiles</tspan><tspan x="720.0" dy="27.3">Learning activities and practice</tspan><tspan x="720.0" dy="27.3">Recommendations and explanations</tspan><tspan x="720.0" dy="27.3">Personal progress and content management</tspan><tspan x="720.0" dy="27.3">Offline evaluation tooling</tspan></text>
+<text x="328" y="260" font-size="16" fill="#526277" text-anchor="middle" font-weight="400"><tspan x="328" dy="0">Assessments and activities</tspan><tspan x="328" dy="20.8">Recommendations and progress</tspan></text>
+<text x="1110" y="260" font-size="16" fill="#526277" text-anchor="middle" font-weight="400"><tspan x="1110" dy="0">Content and questions</tspan><tspan x="1110" dy="20.8">Skills and prerequisites</tspan></text>
+<text x="935" y="650" font-size="17" fill="#526277" text-anchor="middle" font-weight="400"><tspan x="935" dy="0">Prepared profiles</tspan><tspan x="935" dy="22.1">Comparison reports</tspan></text>
+<text x="720" y="885" font-size="18" fill="#526277" text-anchor="middle" font-weight="400"><tspan x="720" dy="0">Scope: the platform and its offline evaluation tools. External people are shown outside the system.</tspan></text>
+</g>
+</svg>
