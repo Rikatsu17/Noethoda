@@ -1,20 +1,19 @@
 # Oiqyn
 
-### A personalized path to IT and digital literacy
+**A personalized path to IT and digital literacy**
 
-Oiqyn is a diploma project focused on developing a web platform
-that helps students improve their IT and digital literacy through
-personalized learning recommendations.
+Oiqyn is a diploma project for a web platform that helps students identify gaps
+in their digital skills and choose what to learn next. The planned platform
+will combine diagnostic tasks, short learning activities, progress tracking,
+and recommendations based on assessment results and prerequisite knowledge.
 
-The platform will assess a student's initial knowledge, track learning
-progress, and recommend suitable learning activities based on identified
-skill gaps and prerequisite knowledge.
+**Current stage:** analysis, requirements definition, design, and planning.  
+**First pre-defense:** 24 October 2026.  
+**Project board:** [Oiqyn on YouTrack](https://oiqyn.youtrack.cloud/issues/OIQ).
 
-**Current stage:** analysis, requirements definition, design, and planning.
-
-**First pre-defense deadline:** 24 October 2026.
-
----
+The repository currently contains the project overview. The application,
+supporting research, diagrams, and prototype are planned deliverables.
+Features described below are not yet implemented.
 
 ## 1. Academic Information
 
@@ -25,305 +24,305 @@ skill gaps and prerequisite knowledge.
 | Group | SE-2414 |
 | Project name | Oiqyn |
 | Diploma topic | Development of a Literacy Platform with Personalized Learning Recommendation |
-| Team members | Adilbekov Daniyal; Rasul Sakenov |
+| Team members | Adilbekov Daniyal; Rassul Sakenov |
 | Supervisor | Bakayeva Bakyt Bolatkyzy |
 
----
+## 2. Problem and Target Users
 
-## 2. Problem Statement
+Using a phone or social media regularly does not necessarily mean that a student
+is confident with digital tasks required for university study. Possible
+difficulties include checking information sources, recognizing phishing,
+managing document permissions, organizing files, and using spreadsheets.
 
-Students enter university with different levels of digital knowledge.
-A learner may be confident with everyday applications but struggle
-with evaluating online information, protecting accounts, organizing
-files, or using digital tools for academic work.
+A fixed sequence of lessons may repeat familiar material while moving too
+quickly through topics where a student needs more practice. Oiqyn will explore
+whether assessment-based recommendations can help students find relevant
+learning activities.
 
-A fixed learning sequence may include material a student already
-understands while providing insufficient support for weaker areas.
+The initial target audience is **first-year university students aged 18 and
+over**. Their needs, preferred topics, and learning difficulties are working
+assumptions to be checked through user discussions and relevant research.
 
-Our project investigates whether diagnostic assessment and
-skill-based recommendations can help students identify relevant
-learning activities and follow a clearer learning path.
+User interviews and the survey have not yet been conducted. Findings will be
+recorded separately from assumptions and used to refine the requirements.
 
-These needs are currently working assumptions. User interviews,
-survey responses, and the literature review will be used to refine
-the problem and project requirements.
+## 3. Aim, Objectives, and Expected Outcomes
 
-## 3. Target Users
+### Aim
 
-The initial target audience is first-year university students
-aged 18 and over who want to strengthen their practical digital skills.
-
-The initial research and prototype will focus on this audience.
-The scope may be refined after discussions with potential users
-and the supervisor.
-
-## 4. Project Aim
-
-To develop and evaluate a web platform that recommends suitable
-IT and digital literacy learning activities based on a student's
-assessment results, learning progress, and prerequisite knowledge.
+To develop and evaluate a web platform that recommends suitable IT and digital
+literacy learning activities based on a student's assessment results,
+learning history, and prerequisite knowledge.
 
 ### Objectives
 
-- Investigate the needs and difficulties of potential users.
-- Review relevant research and compare existing learning platforms.
-- Define functional and non-functional requirements.
-- Design a skill model and a structured collection of learning materials.
-- Implement diagnostic assessment and progress tracking.
-- Develop a recommendation method for selecting the next learning activity.
-- Explain recommendations in language that students can understand.
-- Evaluate the system against a fixed learning sequence and defined criteria.
+1. Investigate the needs of potential users and define the problem.
+2. Review relevant research and compare existing learning platforms.
+3. Specify functional and non-functional requirements with acceptance criteria.
+4. Design the system architecture, skill model, and learning content structure.
+5. Implement diagnostic assessment, learning activities, and progress tracking.
+6. Develop a recommendation method with understandable explanations.
+7. Evaluate functionality, recommendation quality, and usability.
 
-## 5. Planned Learning Areas
+### Expected Outcomes
 
-The initial content scope includes:
+By the end of the diploma project, we plan to deliver:
 
-| Area | Example topics |
+- A working web platform covering the main student learning journey.
+- A limited, structured collection of learning materials and assessment tasks.
+- A recommendation module that selects suitable next activities and explains why.
+- An evaluation comparing recommendations with a fixed learning sequence.
+- Technical documentation covering requirements, architecture, setup, and testing.
+
+Improved learning outcomes are an intended benefit. They will not be presented
+as an established result without an appropriate evaluation.
+
+## 4. Learning Content
+
+The proposed content scope covers four areas:
+
+| Area | Example learning tasks |
 |---|---|
-| IT and internet fundamentals | Basic computer concepts, browsers, online services |
-| Information literacy | Search strategies, source evaluation, verification of AI-generated information |
-| Digital safety | Account protection, phishing awareness, privacy |
-| Digital productivity | File organization, spreadsheets, online collaboration |
+| IT and internet fundamentals | Understand basic computer concepts, browsers, and online services |
+| Information literacy | Compare sources and check the reliability of online information, including AI-generated answers |
+| Digital safety | Recognize phishing, protect accounts, and manage access permissions |
+| Digital productivity | Organize files, use basic spreadsheet functions, and collaborate on documents |
 
-The final topics, learning outcomes, and content volume will be
-confirmed during requirements analysis.
+Each area will be divided into specific skills. Learning activities will have
+skill tags, difficulty levels, and prerequisites where needed.
 
-## 6. Main User Journey
+The MVP will use a small collection of materials prepared by the team.
+The final topics, content volume, and assessment rules will be agreed during
+requirements analysis and supervisor review.
 
-1. The student creates an account and completes an initial assessment.
-2. The platform creates an initial skill profile from the assessment results.
-3. The student receives a recommended learning activity and an explanation.
-4. The student studies the material and completes a short assessment.
-5. The platform updates the student's progress and skill profile.
-6. The recommendation module selects the next suitable activity.
+## 5. MVP Scope
 
-Students will be able to view completed activities, assessment results,
-and areas that require further practice.
+### Included
 
-## 7. Project Scope
+| Feature | Planned behavior |
+|---|---|
+| Student accounts | Register, sign in, and access personal learning records |
+| Initial assessment | Complete tasks linked to defined digital skills |
+| Skill profile | View an initial estimate based on available assessment evidence |
+| Learning activities | Read short lessons and complete related practice |
+| Assessment feedback | See results and explanations for assessed tasks |
+| Recommendations | Receive a suitable next activity based on skill gaps and prerequisites |
+| Recommendation explanations | Understand the reason for the suggested activity |
+| Progress dashboard | View completed activities and assessment results |
+| Content management | Allow an administrator to manage materials, questions, and skill links |
+| Responsive interface | Use the platform through desktop and mobile browsers |
 
-### Included in the planned MVP
+Completing a lesson and demonstrating a skill will be recorded separately.
+Opening a page will not be treated as proof of mastery.
 
-- Student registration and authentication.
-- Initial diagnostic assessment.
-- Learning materials organized by topic and skill.
-- Short assessments linked to learning activities.
-- A skill profile for each student.
-- Recommendations based on skill gaps and prerequisites.
-- Explanations for recommended activities.
-- A dashboard showing learning progress.
-- Basic management of learning materials and assessment questions.
-- A responsive web interface.
-
-### Outside the initial MVP
+### Outside the Initial MVP
 
 - Native mobile applications.
-- Paid subscriptions and payment processing.
-- A public marketplace for third-party courses.
+- Payments, subscriptions, and a public course marketplace.
 - Official certification of digital competence.
-- Automated generation of all educational content.
+- Automatic generation of all learning content.
 - Training a large language model.
+- Integration with university information systems.
 - Large-scale deployment across multiple universities.
 
-A complete application is not required for the first pre-defense.
-The October submission focuses on research, design, planning,
-and evidence of individual contributions.
+The first pre-defense focuses on research, requirements, design, mockups,
+and planning. Implementation is a later project stage.
 
-## 8. Recommendation Approach
+## 6. Main Student Journey
 
-The initial design combines knowledge-based rules with
-content-based ranking.
+1. Create an account and complete the initial assessment.
+2. View the initial skill profile and areas needing further practice.
+3. Receive a recommended activity with a short explanation.
+4. Study the material and complete the related assessment.
+5. Review feedback and updated progress.
+6. Receive the next recommendation based on the new results.
 
-Learning materials will be associated with skills, difficulty levels,
-and prerequisites. The recommendation module will use assessment
-results and learning history to identify relevant activities.
+A short assessment provides limited evidence. Skills with insufficient
+assessment data should remain distinguishable from skills with demonstrated
+difficulties.
 
-The proposed process is:
+## 7. Recommendation Design
 
-1. Identify skills that need further assessment or practice.
-2. Filter activities according to prerequisite requirements.
-3. Rank suitable activities by their relevance to the student's needs.
-4. Present a recommendation with a short explanation.
-5. Update future recommendations after new assessment results.
+The proposed approach combines **knowledge-based rules** with
+**content-based ranking**. It is intended to work before a large history of
+student interactions is available.
+
+| Input | Examples |
+|---|---|
+| Assessment results | Correct and incorrect answers linked to specific skills |
+| Learning history | Completed activities and previous attempts |
+| Content metadata | Skill tags, difficulty, prerequisites, and learning objectives |
+
+The planned process is to:
+
+1. Identify skills needing practice or further assessment.
+2. Find relevant activities in the content collection.
+3. Filter activities against prerequisite requirements.
+4. Rank eligible activities according to the student's needs.
+5. Return the next activity and an explanation.
+6. Update future recommendations after new assessment results.
 
 Example explanation:
 
-> This activity is recommended because your recent answers show
-> difficulty identifying phishing messages.
+> This activity is recommended because your recent answers show difficulty
+> identifying phishing messages.
 
-This approach is intended to work without a large historical dataset
-of student interactions. The final rules and ranking method will be
-documented and evaluated during development.
+Scoring rules, prerequisite thresholds, and handling of missing assessment
+data will be specified and tested during development. The system will also
+need a defined response when no suitable activity is available.
 
-## 9. Proposed Technology Stack
+The recommendation method will be compared with a fixed learning sequence.
+We do not assume that personalization will outperform this baseline before
+evaluation.
 
-These choices are provisional and will be justified through
-a comparison of alternatives.
+## 8. Proposed Architecture and Technologies
 
-| Component | Proposed technology | Purpose |
+The initial design separates the student interface, backend application,
+recommendation logic, and data storage. The recommendation module is planned
+as part of the backend; a separate microservice is not required for the MVP.
+
+| Component | Proposed technology | Responsibility |
 |---|---|---|
-| Frontend | React and TypeScript | Student interface and progress dashboard |
-| Backend | Python and FastAPI | Application logic and API |
-| Database | PostgreSQL | Users, learning content, assessments, and progress |
-| Recommendation module | Python | Skill-based filtering and activity ranking |
-| Version control | Git and GitHub | Development history and peer review |
-| Project management | YouTrack | Tasks, responsibilities, priorities, and deadlines |
-| User research | Google Forms and interviews | Collecting feedback from potential users |
+| Web interface | React and TypeScript | Assessment screens, lessons, recommendations, and progress |
+| Backend application | Python and FastAPI | Authentication, content access, assessment processing, and API |
+| Recommendation module | Python within the backend | Prerequisite filtering, ranking, and explanations |
+| Database | PostgreSQL | Accounts, skills, content, assessment attempts, and progress |
+| Component interaction | HTTP API with JSON | Communication between the frontend and backend |
+| Version control | Git and GitHub | Change history and pull request review |
+| Task tracking | YouTrack | Ownership, priorities, deadlines, and deliverable links |
+
+These choices are provisional. The technology comparison will evaluate
+2–3 alternatives for at least three key decisions, such as the backend
+framework, data storage, and recommendation method. Decisions will be
+justified against project requirements and team constraints.
+
+## 9. Verification and Evaluation Plan
+
+| Area | Planned method | Measures to define and report |
+|---|---|---|
+| Functional correctness | Test authentication, assessment submission, result storage, and progress updates | Passed and failed acceptance criteria |
+| Recommendation constraints | Check prepared profiles with different skill gaps and prerequisites | Prerequisite violations and handling of unavailable activities |
+| Recommendation relevance | Compare the proposed method and a fixed sequence using the same profiles and content | Relevance ratings under a documented review rubric |
+| Usability | Ask target users to complete the main scenarios | Task completion, difficulties, and user feedback |
+| Performance | Measure API behavior under documented conditions | Response times and error rates at a specified workload |
+
+The detailed evaluation plan will define test cases, sample sizes, measurement
+conditions, acceptance thresholds, and baseline behavior before testing.
+Prepared profiles will support technical checks; they will not be presented
+as evidence of real students' learning improvement.
+
+If learning gains are evaluated, that study will use a separate design with
+appropriate assessments and stated limitations.
 
 ## 10. Team Responsibilities
 
 | Team member | Primary responsibilities |
 |---|---|
-| Adilbekov Daniyal Adilbekuly | Backend, database design, assessment logic, recommendation module, and technical evaluation |
-| Rasul Sakenov | Frontend, interface design, user scenarios, progress visualization, and usability evaluation |
+| Adilbekov Daniyal | Backend, database design, assessment logic, recommendation module, and technical evaluation |
+| Rassul Sakenov | Frontend, interface design, user scenarios, progress visualization, and usability evaluation |
 
-Both team members contribute to user research, literature analysis,
-requirements, documentation, integration, and peer review.
+Both members will contribute to user research, literature analysis,
+requirements, integration, documentation, and the defense. Each task will
+have one primary owner, with supporting contributions recorded separately.
 
-Each meaningful task will have one primary owner in YouTrack.
-Individual contributions will be recorded through separate accounts,
-commits, and pull requests.
+Individual contributions will be traceable through personal accounts,
+commits, pull requests, reviews, and linked YouTrack tasks.
 
-## 11. Project Documentation
+## 11. Documentation Plan
 
-Documentation will be maintained in the repository as it is prepared
-and reviewed.
+The README is the project overview. Detailed evidence and decisions will be
+maintained in the following locations as they are prepared.
 
 | Deliverable | Planned location |
 |---|---|
-| Project proposal and scope | `docs/01-proposal.md` |
-| User research findings | `docs/02-user-evidence.md` |
-| Literature review | `docs/03-literature-review.md` |
-| Existing system comparison | `docs/04-existing-systems.md` |
-| Technology comparison | `docs/05-technologies.md` |
-| Requirements and acceptance criteria | `docs/06-requirements.md` |
-| Recommendation design | `docs/07-recommendation-design.md` |
-| Verification and evaluation plan | `docs/08-verification-evaluation.md` |
-| Responsibilities, milestones, and risks | `docs/09-management.md` |
-| Supervisor feedback and resulting changes | `docs/10-supervisor-feedback.md` |
-| Submission checklist and limitations | `docs/11-submission.md` |
-| Editable diagrams and readable exports | `diagrams/` |
-| Interface mockups and prototype materials | `prototype/` |
+| Proposal, target users, objectives, and scope | `docs/01-proposal.md` |
+| Anonymized user research findings and limitations | `docs/02-user-evidence.md` |
+| Literature analysis and references | `docs/03-literature-review.md` |
+| Existing system comparison and supporting sources | `docs/04-existing-systems.md` |
+| Technology alternatives and decision rationale | `docs/05-technologies.md` |
+| Prioritized requirements and acceptance criteria | `docs/06-requirements.md` |
+| Skill model and recommendation rules | `docs/07-recommendation-design.md` |
+| Tests, metrics, conditions, and baseline | `docs/08-verification-evaluation.md` |
+| Responsibilities, milestones, risks, and dependencies | `docs/09-management.md` |
+| Supervisor comments and resulting revisions | `docs/10-supervisor-feedback.md` |
+| Submission status and known limitations | `docs/11-submission.md` |
+| Context, use case, and component diagrams | `diagrams/` |
+| Key screen mockups and prototype scenarios | `prototype/` |
 
-These are planned locations. This table does not indicate that
-every deliverable has been completed.
+These paths are a plan, not links to completed documents. Actual links will
+be added when the files exist and have been checked.
 
-## 12. Repository Organization
+Implementation folders will be added when needed: `frontend/`,
+`backend/`, `tests/`, and `config/`.
 
-| Directory | Purpose |
-|---|---|
-| `frontend/` | Web interface source code |
-| `backend/` | API, application logic, and recommendation module |
-| `docs/` | Research, requirements, design decisions, and project documentation |
-| `diagrams/` | Editable diagram sources and exported images |
-| `prototype/` | Interface mockups and interaction scenarios |
-| `tests/` | Automated tests and supporting test materials |
-| `config/` | Configuration examples and supporting settings |
+## 12. First Pre-defense Checklist
 
-Directories will be added as the corresponding work begins.
+**Deadline: 24 October 2026.** Items will be marked complete only after the
+corresponding evidence has been prepared and checked.
 
-Passwords, API keys, participant contact details, and identifiable
-raw research responses must not be committed to the repository.
-Configuration examples will use placeholder values.
+- [ ] **Project proposal:** title, team, supervisor, problem, users, aim,
+      objectives, expected outcomes, and realistic scope.
+- [ ] **Relevance evidence:** 3–5 discussions with user representatives,
+      or a substantive agreement with an actual client; distinguish verified
+      findings from assumptions.
+- [ ] **Literature review:** at least 12 meaningfully used sources,
+      including at least 8 scientific publications, with a structured analysis
+      table and critical synthesis. For rapidly evolving topics, prioritize
+      the last five years while retaining essential foundational works.
+- [ ] **Existing systems:** compare 3–5 relevant systems against 6–10
+      consistent criteria and support capability claims with evidence.
+      Justify a smaller set if fewer comparable systems exist.
+- [ ] **Technology comparison:** at least three key decisions, with
+      2–3 reasonable alternatives for each.
+- [ ] **Requirements:** functional and non-functional requirements,
+      priorities, and verifiable acceptance criteria.
+- [ ] **Architecture:** consistent system context, use case, and draft
+      component diagrams aligned with requirements and scenarios.
+- [ ] **UX/prototype:** mockups showing the main user scenarios.
+- [ ] **Evaluation plan:** testing approach, outcome metrics, measurement
+      conditions, and a baseline for comparison.
+- [ ] **Project management:** Git repository, YouTrack project,
+      responsibilities, milestones, risks, and dependencies.
+- [ ] **Supervisor feedback:** substantive comments on key deliverables,
+      decisions on how to address them, and resulting changes.
 
-## 13. Project Management
+A survey may provide additional evidence. It will supplement user discussions;
+no minimum survey response count is specified in the supplied pre-defense
+criteria.
 
-Tasks are tracked in
-[the Oiqyn YouTrack project](https://oiqyn.youtrack.cloud/issues/OIQ).
+## 13. Project Workflow
 
-Each task should include:
+Tasks are managed in the
+[Oiqyn YouTrack project](https://oiqyn.youtrack.cloud/issues/OIQ).
+Each task should state its owner, expected result, acceptance criteria,
+priority, deadline, and links to the work.
 
-- A clear description.
-- One responsible team member.
-- An expected result.
-- Acceptance criteria.
-- A priority and deadline.
-- Links to the relevant deliverables or pull requests.
+For each meaningful change:
 
-### Development workflow
+1. Select the relevant YouTrack task and update its status.
+2. Create a branch and include the actual task ID in its name.
+3. Commit the work with a descriptive message referencing the task.
+4. Open a pull request explaining the change and how it was checked.
+5. Have the other team member review it and address any comments.
+6. Merge the reviewed work and link the pull request in YouTrack.
+7. Close the task when all its acceptance criteria are met.
 
-1. Create or select a task in YouTrack.
-2. Move the task to the appropriate active stage when work begins.
-3. Create a separate Git branch for the task.
-4. Record meaningful changes with descriptive commit messages.
-5. Include the actual YouTrack task ID in the branch name
-   and commit or pull request description.
-6. Open a pull request and describe how the work was checked.
-7. Have the other team member review the changes.
-8. Address review comments before merging into `main`.
-9. Link the pull request in YouTrack and close the task
-   only when its acceptance criteria are met.
+Research and documentation changes follow the same review process.
+Reviews and task completion must reflect work that actually took place.
 
-The `main` branch will contain reviewed work.
-Documentation and design changes follow the same review process.
+Submission snapshots are planned as Git tags:
+`pre-defense-1`, `pre-defense-2`, and `final-pre-defense`.
+Each snapshot will identify completed work and outstanding limitations.
+Further development will continue in new commits without moving submitted tags.
 
-## 14. First Pre-defense: 24 October 2026
+Passwords, API keys, participant contact details, and identifiable raw research
+responses must not be committed. Public research summaries will use participant
+codes and anonymized findings.
 
-The planned submission includes:
+## 14. Setup and Execution
 
-- [ ] Completed project README.
-- [ ] Project proposal, target users, objectives, and scope.
-- [ ] Evidence from 3–5 discussions with potential users.
-- [ ] Survey findings, if responses are available, with limitations stated.
-- [ ] Literature review using at least 12 sources,
-      including at least 8 scientific publications.
-- [ ] Comparison of 3–5 existing systems using 6–10 consistent criteria.
-- [ ] Comparison of at least 3 key technical decisions,
-      with 2–3 alternatives for each.
-- [ ] Functional and non-functional requirements with acceptance criteria.
-- [ ] System context diagram.
-- [ ] Use case diagram.
-- [ ] Draft component diagram.
-- [ ] Editable diagram sources and readable exports.
-- [ ] Mockups of the main user scenarios.
-- [ ] Verification and evaluation plan.
-- [ ] Assigned and prioritized YouTrack tasks.
-- [ ] Project milestones, risks, and dependencies.
-- [ ] Recorded supervisor feedback and resulting revisions.
-- [ ] Evidence of progressive contributions from both team members.
-- [ ] Repository access for the supervisor and committee.
-- [ ] Submission tag: `pre-defense-1`.
-
-Checklist items will be marked complete only after the corresponding
-work has been completed and checked.
-
-## 15. Verification and Evaluation
-
-The evaluation plan will cover:
-
-- Functional correctness of authentication, assessments,
-  recommendations, and progress tracking.
-- Compliance of recommendations with prerequisite rules.
-- Recommendation relevance compared with a fixed learning sequence.
-- Usability of the main student scenarios.
-- API performance under documented test conditions.
-
-Metrics, test conditions, and acceptance thresholds will be specified
-in the verification and evaluation plan.
-
-Improved learning outcomes are an intended benefit, not an established
-result. Any claims about effectiveness will depend on the evidence
-collected during evaluation.
-
-## 16. Setup and Execution
-
-The project is currently in the analysis and design stage.
 A runnable application is not yet available.
 
-Installation, environment configuration, database setup, execution,
-and testing instructions will be added when the first runnable
-implementation is committed.
-
-## 17. Submission Versions
-
-The same repository will be maintained throughout the diploma project.
-
-Submission versions will be identified using these Git tags:
-
-- `pre-defense-1`
-- `pre-defense-2`
-- `final-pre-defense`
-
-Each submission will include a summary of completed work,
-known limitations, and outstanding tasks. Submitted tags will remain
-unchanged while further development continues in new commits.
+Installation instructions, environment variables, database migrations,
+run commands, and test commands will be added with the first working
+implementation.
