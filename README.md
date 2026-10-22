@@ -21,7 +21,7 @@ Features described below are not yet implemented.
 |---|---|
 | University | Astana IT University |
 | Educational program | Software Engineering |
-| Group | SE-2414 |
+| Group | Adilbekov Daniyal - SE-2414, Sakenov Rassul - SE-2403|
 | Project name | Oiqyn |
 | Diploma topic | Development of a Literacy Platform with Personalized Learning Recommendation |
 | Team members | Adilbekov Daniyal; Rassul Sakenov |
