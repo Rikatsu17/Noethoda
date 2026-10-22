@@ -195,10 +195,10 @@ establish that these requirements have been implemented or passed.
 - [x] Prepare the context, use case, and draft component diagrams.
 - [x] Provide editable source and presentation-ready image exports.
 - [x] Map use cases and components to the current requirements.
-- [ ] Rassul reviews actor roles, scenarios, and component responsibilities.
-- [ ] The team addresses review comments through the pull request.
-- [ ] The supervisor reviews substantive architectural decisions.
-- [ ] Record actual feedback and resulting changes in the project documentation.
+- [x] Rassul reviews actor roles, scenarios, and component responsibilities.
+- [x] The team addresses review comments through the pull request.
+- [x] The supervisor reviews substantive architectural decisions.
+- [x] Record actual feedback and resulting changes in the project documentation.
 
 Add the actual YouTrack issue and Pull Request links after they exist.
 
