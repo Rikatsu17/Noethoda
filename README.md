@@ -223,15 +223,15 @@ Implementation folders will be added when needed: `frontend/`, `backend/`, `test
 
 Items will be marked complete only after the corresponding evidence has been prepared and checked.
 
-- [ ] **Project proposal:** title, team, supervisor, problem, users, aim, objectives, expected outcomes, and realistic scope.
-- [ ] **Relevance evidence:** 3–5 discussions with user representatives, or a substantive agreement with an actual client; distinguish verified findings from assumptions.
-- [ ] **Literature review:** at least 12 meaningfully used sources, including at least 8 scientific publications, with a structured analysis table and critical synthesis. For rapidly evolving topics, prioritize the last five years while retaining essential foundational works.
-- [ ] **Existing systems:** compare 3–5 relevant systems against 6–10 consistent criteria and support capability claims with evidence. Justify a smaller set if fewer comparable systems exist.
-- [ ] **Technology comparison:** at least three key decisions, with 2–3 reasonable alternatives for each.
-- [ ] **Requirements:** functional and non-functional requirements, priorities, and verifiable acceptance criteria.
-- [ ] **Architecture:** consistent system context, use case, and draft component diagrams aligned with requirements and scenarios.
-- [ ] **UX/prototype:** mockups showing the main user scenarios.
-- [ ] **Evaluation plan:** testing approach, outcome metrics, measurement conditions, and a baseline for comparison.
+- [x] **Project proposal:** title, team, supervisor, problem, users, aim, objectives, expected outcomes, and realistic scope.
+- [x] **Relevance evidence:** 3–5 discussions with user representatives, or a substantive agreement with an actual client; distinguish verified findings from assumptions.
+- [x] **Literature review:** at least 12 meaningfully used sources, including at least 8 scientific publications, with a structured analysis table and critical synthesis. For rapidly evolving topics, prioritize the last five years while retaining essential foundational works.
+- [x] **Existing systems:** compare 3–5 relevant systems against 6–10 consistent criteria and support capability claims with evidence. Justify a smaller set if fewer comparable systems exist.
+- [x] **Technology comparison:** at least three key decisions, with 2–3 reasonable alternatives for each.
+- [x] **Requirements:** functional and non-functional requirements, priorities, and verifiable acceptance criteria.
+- [x] **Architecture:** consistent system context, use case, and draft component diagrams aligned with requirements and scenarios.
+- [x] **UX/prototype:** mockups showing the main user scenarios.
+- [x] **Evaluation plan:** testing approach, outcome metrics, measurement conditions, and a baseline for comparison.
 - [ ] **Project management:** Git repository, YouTrack project, responsibilities, milestones, risks, and dependencies.
 - [ ] **Supervisor feedback:** substantive comments on key deliverables, decisions on how to address them, and resulting changes.
 
