@@ -1,7 +1,7 @@
 # Oiqyn — Literature Review
 
 **Project:** Development of a Literacy Platform with Personalized Learning Recommendation  
-**Team:** Adilbekov Daniyal (SE-2414); Rassul Sakenov (SE-2403)  
+**Team:** Adilbekov Daniyal (SE-2414) and Rassul Sakenov (SE-2403)  
 **Prepared:** 23 October 2026  
 **Status:** Draft for team and supervisor review  
 **Related deliverable:** First pre-defense, 24 October 2026
