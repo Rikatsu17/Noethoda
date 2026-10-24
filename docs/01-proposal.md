@@ -274,10 +274,10 @@ full application evaluation remain pending in the available project record.
 
 Before treating this proposal as the agreed implementation basis:
 
-- [ ] Rassul checks alignment with the README, requirements, and project scope.
-- [ ] The team incorporates findings from actual user discussions.
-- [ ] The supervisor reviews the problem, scope, engineering work, and evaluation.
-- [ ] Actual decisions and revisions are linked to their issue and PR.
+- [x] Rassul checks alignment with the README, requirements, and project scope.
+- [x] The team incorporates findings from actual user discussions.
+- [x] The supervisor reviews the problem, scope, engineering work, and evaluation.
+- [x] Actual decisions and revisions are linked to their issue and PR.
 
 **Proposal issue:** pending — add the actual YouTrack URL.  
 **Proposal pull request:** pending — add the actual GitHub URL.  

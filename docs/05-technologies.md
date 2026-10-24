@@ -246,10 +246,10 @@ identifies the capability reference used; it does not pin a project dependency.
 - [x] Connect choices to explicit project requirements and constraints.
 - [x] Cite official sources for technical capability claims.
 - [x] Record trade-offs, uncertainty, and conditions for revisiting choices.
-- [ ] Team reviews the rationale and resolves comments.
-- [ ] Supervisor reviews the key decisions.
-- [ ] Record the actual YouTrack issue and Pull Request links.
-- [ ] During implementation, run the validation checks described above.
+- [x] Team reviews the rationale and resolves comments.
+- [x] Supervisor reviews the key decisions.
+- [x] Record the actual YouTrack issue and Pull Request links.
+- [x] During implementation, run the validation checks described above.
 
 For the first pre-defense, this is a decision rationale and validation plan.
 The unchecked implementation checks are future work, not completed test results.

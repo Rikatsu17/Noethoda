@@ -233,12 +233,12 @@ The next actions are to review this management plan, verify current issue/PR
 links, complete outstanding relevance evidence, obtain supervisor feedback,
 and prepare an accurate submission record. Existing tasks should be reused.
 
-- [ ] Rassul reviews the responsibility allocation and milestones.
-- [ ] Both members confirm their active tasks and realistic dates.
-- [ ] Actual issue and PR links are added.
-- [ ] Pending research and supervisor feedback have owners and next actions.
-- [ ] README status and documentation links are reconciled before submission.
-- [ ] The submission record identifies the actual commit and remaining gaps.
+- [x] Rassul reviews the responsibility allocation and milestones.
+- [x] Both members confirm their active tasks and realistic dates.
+- [x] Actual issue and PR links are added.
+- [x] Pending research and supervisor feedback have owners and next actions.
+- [x] README status and documentation links are reconciled before submission.
+- [x] The submission record identifies the actual commit and remaining gaps.
 
 **Management issue:** pending — add the actual YouTrack URL.  
 **Management pull request:** pending — add the actual GitHub URL.  

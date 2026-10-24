@@ -375,14 +375,14 @@ Deferred Should requirements need a recorded reason and supervisor discussion.
 
 Before 24 October 2026:
 
-- [ ] Add this plan to the repository through the linked documentation issue.
-- [ ] Have Rassul review alignment with requirements, recommendation design,
+- [x] Add this plan to the repository through the linked documentation issue.
+- [x] Have Rassul review alignment with requirements, recommendation design,
       diagrams, and prototype; record actual comments and changes.
-- [ ] Ask the supervisor to review the planned baseline, metrics, scope, and
+- [x] Ask the supervisor to review the planned baseline, metrics, scope, and
       numerical targets; record feedback when it is received.
-- [ ] Prepare to explain the 20 synthetic cases, common eligibility filter,
+- [x] Prepare to explain the 20 synthetic cases, common eligibility filter,
       usability protocol, and difference between planned and completed work.
-- [ ] Keep the current prototype-check record visible without presenting it
+- [x] Keep the current prototype-check record visible without presenting it
       as full application acceptance.
 
 After the backend and frontend are implemented, execute the corresponding
