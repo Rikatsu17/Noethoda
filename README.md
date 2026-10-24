@@ -232,8 +232,8 @@ Items will be marked complete only after the corresponding evidence has been pre
 - [x] **Architecture:** consistent system context, use case, and draft component diagrams aligned with requirements and scenarios.
 - [x] **UX/prototype:** mockups showing the main user scenarios.
 - [x] **Evaluation plan:** testing approach, outcome metrics, measurement conditions, and a baseline for comparison.
-- [ ] **Project management:** Git repository, YouTrack project, responsibilities, milestones, risks, and dependencies.
-- [ ] **Supervisor feedback:** substantive comments on key deliverables, decisions on how to address them, and resulting changes.
+- [x] **Project management:** Git repository, YouTrack project, responsibilities, milestones, risks, and dependencies.
+- [x] **Supervisor feedback:** substantive comments on key deliverables, decisions on how to address them, and resulting changes.
 
 A survey may provide additional evidence. It will supplement user discussions; no minimum survey response count is specified in the supplied pre-defense criteria.
 
